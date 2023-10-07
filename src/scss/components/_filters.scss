@@ -1,0 +1,20 @@
+.tag {
+    color: $black;
+    font-size: $font-size-xs;
+    line-height: $line-height-m;
+}
+
+
+.tag-option {
+    color: $black;
+    font-size: $font-size-sm;
+    line-height: $line-height-l;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:active {
+        text-decoration: underline;
+    }
+}
